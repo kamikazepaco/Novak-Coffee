@@ -2,9 +2,40 @@
     --primary-color: #d3914b;
     --secondary-color: #f6e8da;
     --tertiary-color: #181818;
+
+    .skip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1111111;
+    }
 }
 
-body {
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
     font-family: 'Montserrat', sans-serif;
     color: var(--primary-color);
+    overflow-x: hidden;
+    background-color: var(--tertiary-color);
 }
+
+#nav {
+    .nav-menu {
+        ul {
+            padding: 0;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+}
+
+/* Navigation */

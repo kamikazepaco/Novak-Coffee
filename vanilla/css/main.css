@@ -22,6 +22,56 @@ html {
   background-color: var(--tertiary-color);
 }
 
+#nav {
+  width: 100%;
+  height: 6.25em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200000;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+#nav .background-color-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  height: 0;
+  transition: height 0.3s;
+}
+#nav .container {
+  max-width: 75em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#nav .container img {
+  padding: 2.4vw 6vw;
+  width: auto;
+  max-width: 100%;
+  max-height: 22px;
+}
+#nav .cont {
+  display: inline-flex;
+  align-self: center;
+}
+#nav .cont .header-cta {
+  position: relative;
+  display: inline-block;
+  margin-right: 2.5vw;
+  padding: 1rem 1.6rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#nav .nav-menu {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+}
 #nav .nav-menu ul {
   padding: 0;
 }
@@ -31,6 +81,18 @@ html {
 #nav .nav-menu ul li a {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+.holder {
+  position: relative;
+  background-color: var(--secondary-color);
+  height: 90vh;
+}
+
+.holder2 {
+  position: relative;
+  background-color: var(--primary-color);
+  height: 90vh;
 }
 
 /* Navigation *//*# sourceMappingURL=main.css.map */

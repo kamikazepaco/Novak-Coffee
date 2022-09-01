@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #d3914b;
+  --secondary-color: #f6e8da;
+  --tertiary-color: #181818;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary-color);
+}/*# sourceMappingURL=main.css.map */

@@ -14,6 +14,8 @@ In order to test my knowledge and potential shortcomings, I am building the land
 
 3. coffee is life ☕️
 
+this will probably read like a journal, so apologies in advance  
+
 ## Objectives & deadline
 
 Despite the face that im still a new developer, I want, to treat this as if its a real client and project with deadline. As such, I will set a **deadline of 1 October**, which gives me a month to complete the site.
@@ -31,3 +33,10 @@ first day of the project! Im still organizing and planning it all today. I know 
 
 
 Imported all of the assets to site. worked on navbar and realized I dont quite understand position as intimately as I should. Had navbar looking decent, but then broke something when I made position fixed. ended up cannibalizing work trying different CSS snippets just to see how they would react. I already want to use NextJS just for the ease of it, but that would defeat the purpose of this. The plan tomorrow is to study **more** navbar design and then come back at night and try to implement what I learn. Ideally, I want the bar to be uptop and transparent, but gain a white bakcground on scroll and follow the user down the page. I have the JS drafted out and could probably use the navbar I coded ofr the Movement Clinic, but I should be able to do it again off the cuff.
+#
+#
+### 1 Sep
+#
+Today is the day where I either complete the navbar or I wont have it done until next week. Girlfriend and I are taking a vacation, so probably wont get much work done. 
+#### post-coding/notes
+Finally worked out basic nav bar. I dont like my CSS display declarations. Ill work on cleaning it up later. THe scaling, text, and such isnt perfect, but as long as I can give the bar a slightly thinner profile, Ill be happy. Might work on it more tonight, but i'm probably going to fiddle with a youtube code along or watch netflix and clean. 

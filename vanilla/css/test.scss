@@ -1,0 +1,30 @@
+:root {
+    --background: blue;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #222;
+    font-weight: 400;
+}
+
+.content {
+    height: 200vh;
+    background-image: url(../images/chemex.jpg);
+    background-color: #333;
+    background-size: cover;
+    background-blend-mode: multiply;
+    place-items: center;
+    display: grid;
+}
+
+
+/* navigation styles */
+
+header {
+    background: var(--background);
+}

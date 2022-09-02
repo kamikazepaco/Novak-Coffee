@@ -28,13 +28,17 @@ body {
 
 
 .content {
-    height: 200vh;
-    background-image: url(//unsplash.it/1000/1000);
+    height: 110vh;
+    // width: 100%;
+
+    background-image: url(../images/chemex.jpg);
     background-color: #333;
     background-blend-mode: multiply;
     background-size: cover;
-    display: grid;
-    place-items: center;
+    background-position:  73.5137% 100%;
+
+    // display: grid;
+    // place-items: center;
   }
 
 /* Navigation */

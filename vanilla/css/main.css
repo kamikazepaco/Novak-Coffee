@@ -67,23 +67,31 @@ body {
   /* display: inline-block; */
   /* float: right; */
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 19px;
   letter-spacing: 0.02em;
   list-style: none;
   text-align: right;
+  display: flex;
 }
 #navbar .nav_link-wrapper .menu li {
-  display: inline-block;
+  display: block;
+  padding: 0.1rem;
 }
 #navbar .nav_link-wrapper .menu li a {
   position: relative;
-  margin: 0 20px;
-  padding: 0 4px;
+  margin: 0 1.1rem;
+  padding: 0;
   color: white;
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
+}
+#navbar .nav_link-wrapper .header-cta {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-right: 0.2rem;
 }
 #navbar .nav_link-wrapper .header-cta a {
   text-decoration: none;
@@ -96,8 +104,8 @@ body {
   z-index: 3;
   background-color: var(--primary-color);
   border: none;
-  padding: 1rem 1rem;
-  font-size: 18px;
+  padding: 0.9rem 1rem;
+  font-size: 17px;
   cursor: pointer;
   justify-content: end;
 }

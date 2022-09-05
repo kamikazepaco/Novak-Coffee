@@ -35,7 +35,7 @@ first day of the project! Im still organizing and planning it all today. I know 
 Imported all of the assets to site. worked on navbar and realized I dont quite understand position as intimately as I should. Had navbar looking decent, but then broke something when I made position fixed. ended up cannibalizing work trying different CSS snippets just to see how they would react. I already want to use NextJS just for the ease of it, but that would defeat the purpose of this. The plan tomorrow is to study **more** navbar design and then come back at night and try to implement what I learn. Ideally, I want the bar to be uptop and transparent, but gain a white bakcground on scroll and follow the user down the page. I have the JS drafted out and could probably use the navbar I coded ofr the Movement Clinic, but I should be able to do it again off the cuff.
 
 #
-### **1 Sep**
+### **1 Sept**
 #
 Today is the day where I either complete the navbar or I wont have it done until next week. Girlfriend and I are taking a vacation, so probably wont get much work done.
 #### **post-coding/notes**
@@ -48,3 +48,7 @@ Woke up this morning and got straight to work! Amazing how sleeping on a problem
 Its time to start my vacation, so a ton wont be completed this weekend. I do still intend to maintain #NoZeroDay so I will work on stuff here and there, but it'll probably be more conceptual stuff than this website.
 
 Notes for future me: Background is set as background of content div. I dont think I like this too much. may be better if it is put into its own background div and then set. Ill think on this while i drive.
+#
+### **2-5 Sept**
+#
+Got some work done on my vacation! Really spent the time refactoring the navbar more. I also decided that while while mobile first is ideal, I should keep the project in scope and Just copy the page as is and add mobile if I have time.
